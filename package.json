@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "node ace serve --watch",
     "build": "node ace build --prod",
-    "start": "node ace serve --watch",
     "start:prod": "node ./build/server.js",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
