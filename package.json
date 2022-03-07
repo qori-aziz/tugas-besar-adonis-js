@@ -2,6 +2,9 @@
   "name": "main-bareng",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": "16.3.2"
+  },
   "scripts": {
     "build": "node ace build --prod",
     "start:prod": "node ./build/server.js",
