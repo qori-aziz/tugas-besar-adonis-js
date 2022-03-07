@@ -30,6 +30,6 @@ export default {
     apis: ['app/**/*.ts', 'docs/swagger/**/*.yml', 'start/routes.ts'],
     basePath: '/api/v1',
   },
-  mode: process.env.NODE_ENV === 'production' ? 'PRODUCTION' : 'RUNTIME',
+  mode: process.env.NODE_ENV === 'production' ? 'RUNTIME' : 'RUNTIME',
   specFilePath: 'docs/swagger.json',
 } as SwaggerConfig
