@@ -7,8 +7,8 @@
   },
   "scripts": {
     "build": "node ace build --prod",
+    "start": "node ace serve --watch",
     "start:prod": "node ./build/server.js",
-    "start": "node ./build/server.js",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
   },
